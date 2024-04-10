@@ -1,0 +1,6 @@
+shape(6)
+  .color(0.8,0.2,1.5)
+  .repeat(2,3)
+  .scale(0.5,[0.2,0.7])
+  .rotate(1,0.2)
+  .out()
