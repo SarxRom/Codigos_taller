@@ -1,0 +1,21 @@
+//hush()
+osc(4).rotate(1.3).scale(0.003).pixelate(30,30).color(0,2,1).out() //pixelado
+shape(4).scale(0.20).repeat(6,9).color(5,3.1,1).rotate(1,2).out() //espacio
+osc(2).rotate(2,2).pixelate(20,20).repeat(2,2).color(1,1.054,1.004).out() //remolino
+osc(2).scale(0.02).rotate(3,5).repeat(2,2).color(2,0.4,1.1).out() //pinkremolino
+shape(6).color(0.8,0.2,1.5).repeat(2,3).scale(0.5,[0.2,0.7]).rotate(1,0.2).out() //hexa
+osc(5).rotate(1.3).scale(1.5).repeat(2,5).kaleid(40).color(1,0,3).out() //ovalopurple
+osc(5).rotate(1.3).scale(1.5).repeat(2,5).kaleid(40).colorama(5.003).out() //astral
+voronoi(5).rotate(1.3).scale(1.5).repeat(2,5).colorama(4.2).posterize(7,2,0).out() //alucinacion
+osc().kaleid(6).brightness(0.2).colorama(3).out() //navideño
+shape(3).scroll(1,3).repeat(3,5).rotate(3,2).out(o0) //trianado
+shape(12,0.01,1).rotate(3,2).out(o0) //luz
+shape(4,0.01,1).blend(shape(12,0.01,1),[0,1]).rotate(3,2).colorama(5.003).out(o0) //sombrillas
+shape(6,0.01,1).blend(shape(3,0.01,1),[0,1]).rotate(4,2).color(5,1,2.6).out(o0) //formrose
+osc(6).rotate(2,1).scale(0.2).pixelate(2,2).repeat(3,3).color(1,2,3).out() //pixul
+noise().kaleid(20).rotate(2,2).color (2,3,4).out() //motor
+voronoi(2,1).scale(0.02).color(1,3,5,).out() //oceano
+osc(2).rotate(3,2).scale(0.02).pixelate(30,230).repeat(2,4).color(1,1.054,1.004).out() //meta
+osc(2).rotate(3,2).pixelate(30,230).repeat(1).color(1,1.054,1.004).out() //cinema
+osc(2).rotate(3,2).scale(0.02).pixelate(20,20).repeat(2,2).color(3,0,1).out() //pixelremopink
+shape(3,0.5,1.5).scale(0.3,0.5).color([1,4].smooth(3),0.2,1).repeat(3,2).modulateScale(osc(5,1),-0.6).add(o0,0.7).scale(0.9).out() //flechas
