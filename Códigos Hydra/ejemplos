@@ -48,3 +48,15 @@ voronoi(2,0.3,0.2).shift(0.5)
 	.out()
 speed = 0.8
 
+
+osc(13,0,1).kaleid()
+  .mask(shape(3,0.3,1))
+  .modulateRotate(shape(4,0.1,1))
+  //.modulateRotate(shape(9,0.1,0.9))
+  //.modulateRotate(shape(9,0.1,0.8))
+  .scale(0.11)
+  .add(shape(3,0.2,1).color(0.4,0.6,1,0.6))
+  .rotate(()=>time)
+  .color(2,0.7,1)
+.out()
+
